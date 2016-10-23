@@ -1,0 +1,60 @@
+# Dependencies
+markdown:	kramdown
+encoding: utf-8
+
+# Permalinks
+permalink:	/blog/:title
+
+# Setup
+title:            Lulu
+tagline:          'blog'
+description:      'My personal blog.'
+url:              https://lulu-zhu.github.io
+baseurl:          
+commentsystem:    google
+disqus:           example
+
+author:
+  name:           Lulu zhu
+  url:            https://github.com/Lulu-zhu
+  
+gems: [jekyll-paginate]
+paginate:         5
+
+# Custom vars
+icon:             /assets/images/icon.png
+cover:            /assets/images/cover.jpg
+
+social:
+    
+  - icon:         mail
+    url:          mailto:Lulu_zhu@foxmail.com
+    desc:         Contanct me by mail
+
+  - icon:         github
+    url:          https://github.com/Lulu-zhu
+    desc:         Fork me on github
+
+  - icon:         feed
+    url:          http://Lulu-zhu.github.io/atom.xml
+    desc:         Subscribe to my feed
+
+menu:
+  - title:        Home
+    url:          /
+
+  - title:        About
+    url:          /about
+
+copyright:
+  author:         Lulu-zhu
+  url:            http://Lulu-zhu.github.io
+  type_title:     Some rights reserved
+
+parallax:         false
+
+# Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
+google_analytics:  
+
+# Default Theme Color for Chrome on Android Lollipop (Use RGB ColorCode without `#`, e.g.: `db5945`)
+theme_color:       7E9576

@@ -22,7 +22,7 @@ gems: [jekyll-paginate]
 paginate:         5
 
 # Custom vars
-icon:             /assets/images/icon.jpg
+icon:             /assets/images/icon.png
 cover:            /assets/images/cover.jpg
 
 social:

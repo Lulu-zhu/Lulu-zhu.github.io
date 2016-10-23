@@ -9,7 +9,7 @@ permalink:	/blog/:title
 title:            Lulu
 tagline:          'blog'
 description:      'My personal blog.'
-url:              https://lulu-zhu.github.io
+url:              https://Lulu-zhu.github.io
 baseurl:          
 commentsystem:    google
 disqus:           example
@@ -48,7 +48,7 @@ menu:
 
 copyright:
   author:         Lulu-zhu
-  url:            http://Lulu-zhu.github.io
+  url:            https://Lulu-zhu.github.io
   type_title:     Some rights reserved
 
 parallax:         false

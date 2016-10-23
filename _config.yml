@@ -1,3 +1,6 @@
 name: Lulu zhu, Horrible Cop
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+paginate: 5
+gems:
+  - jekyll-sitemap

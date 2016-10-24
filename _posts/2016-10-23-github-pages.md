@@ -3,7 +3,7 @@ layout: post
 title: "利用GithubPages建博客"
 quote: "GithubPages, Jkeyll"
 image:
-      url: /media/2014-02-27-hello-cosette/cover.jpg
+      url: /media/2016-10-23-github-pages/cover.png
 video: false
 comments: true
 theme_color: 302F2D

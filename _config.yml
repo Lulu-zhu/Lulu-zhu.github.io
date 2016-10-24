@@ -1,63 +1,90 @@
-# Dependencies
-markdown:	kramdown
-kramdown:
-  input: GFM
-  
-encoding: utf-8
+# Site settings
+title: Lulu Blog
+SEOTitle: 朱噜噜的博客
+header-img: img/home-bg.jpg
+email: Lulu_zhu@foxmail.com
+description: "Hello, I'm Lulu. I'm a programmer."
+keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, 肖玉, Lynn, 肖玉的男朋友"
+url: "https://github.com/Lulu-zhu"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
-# Permalinks
-permalink:	/blog/:title
 
-# Setup
-title:            Lulu
-tagline:          'blog'
-description:      'My personal blog.'
-url:              https://Lulu-zhu.github.io
-baseurl:          
-commentsystem:    google
-disqus:           example
 
-author:
-  name:           Lulu zhu
-  url:            https://github.com/Lulu-zhu
-  
+# SNS settings
+RSS: false
+weibo_username:     1325629587
+zhihu_username:     zhu-lu-lu-77
+github_username:    Lulu-zhu
+#twitter_username:  
+#facebook_username:  
+# linkedin_username:  firstname-lastname-idxxxx
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
-paginate:         5
 
-# Custom vars
-icon:             /assets/images/icon.png
-cover:            /assets/images/cover.jpg
 
-social:
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+duoshuo_username: huxblog
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+# Analytics settings
+# Baidu Analytics 
+# ba_track_id: [your track id]
+
+# Google Analytics
+#ga_track_id: ''            # Format: UA-xxxxxx-xx
+#ga_domain: auto
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "最美好的只能存在于记忆里"
+sidebar-avatar: /img/avatar-lulu.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
     
-  - icon:         mail
-    url:          mailto:Lulu_zhu@foxmail.com
-    desc:         Contanct me by mail
-
-  - icon:         github
-    url:          https://github.com/Lulu-zhu
-    desc:         Fork me on github
-
-  - icon:         feed
-    url:          http://Lulu-zhu.github.io/atom.xml
-    desc:         Subscribe to my feed
-
-menu:
-  - title:        Home
-    url:          /
-
-  - title:        About
-    url:          /about
-
-copyright:
-  author:         Lulu-zhu
-  url:            https://Lulu-zhu.github.io
-  type_title:     Some rights reserved
-
-parallax:         false
-
-# Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
-google_analytics:  
-
-# Default Theme Color for Chrome on Android Lollipop (Use RGB ColorCode without `#`, e.g.: `db5945`)
-theme_color:       7E9576
+]

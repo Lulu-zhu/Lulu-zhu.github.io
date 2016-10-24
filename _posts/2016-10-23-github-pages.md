@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "利用GithubPages建博客"
-quote: "test"
+quote: "GithubPages, Jkeyll"
 image:
       url: /media/2014-02-27-hello-cosette/cover.jpg
 video: false
 comments: true
 theme_color: 302F2D
+date: 2016-10-23
 ---
 
 ## Github Pages

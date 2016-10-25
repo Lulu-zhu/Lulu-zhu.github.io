@@ -68,7 +68,7 @@ duoshuo_share: true                     # set to false if you want to use Commen
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "最美好的只能存在于记忆里"
-sidebar-avatar: /img/avatar-lulu.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /blob/master/img/avatar-lulu.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 

@@ -6,7 +6,7 @@ email: Lulu_zhu@foxmail.com
 description: "Hello, I'm Lulu. I'm a programmer."
 keyword: ""
 url: "https://github.com/Lulu-zhu/Lulu-zhu.github.io"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "https://github.com/Lulu-zhu/Lulu-zhu.github.io"                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 

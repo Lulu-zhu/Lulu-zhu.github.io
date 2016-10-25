@@ -2,6 +2,7 @@
 layout: post
 title: "用GithubPages建博客"
 subtitle: "GithubPages, Jkeyll"
+author: "Lulu"
 header-img: "img/post-bg/githubpages.jpg"
 date: 2016-10-23
 catalog: true

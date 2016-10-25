@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "用GithubPages建博客"
-quote: "GithubPages, Jkeyll"
+subtitle: "GithubPages, Jkeyll"
 header-img: "img/post-bg/githubpages.jpg"
 date: 2016-10-23
 catalog: true

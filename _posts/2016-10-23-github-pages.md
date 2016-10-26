@@ -45,10 +45,10 @@ tags:
 
 读到这里，相信你已经阅读过官方指导，大概了解了Github Pages。那么以下文章就是关于Github Pages的部署问题。
 
-## 使用Github官方支持的工具Jkyll
+## 使用Github官方支持的工具Jekyll
 
 >Q: 如何将你的博客生成网页，部署在你自己的`http://username.github.io`上呢？
->A: 使用Jkyll工具，将你的文章，自定义网站的设计，转化为静态网站和博客。
+>A: 使用Jekyll工具，将你的文章，自定义网站的设计，转化为静态网站和博客。
 
 ### [Jekyll安装](http://jekyllrb.com/docs/installation/)
 
@@ -77,7 +77,7 @@ SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificat
 
 原因是以上地址已不再维护gems。如果你先知道了这些，那么可以为你省点时间。 
 
-如果你需要使用到`bundle exec jkyll serve`进行本地调试，请阅读下一小节Bundle安装。如果你只是使用`jkyll serve`进行调试，可以等你需要的时候再阅读。
+如果你需要使用到`bundle exec jekyll serve`进行本地调试，请阅读下一小节Bundle安装。如果你只是使用`jekyll serve`进行调试，可以等你需要的时候再阅读。
 
 ### Bundle安装
 
@@ -225,7 +225,7 @@ Finally！完成了。
 
 ### 本机调试
 
-到这步，你终于可以看看自己实现的博客了。1请先将ruby命令行窗口切换到你仓库的地址，然后使用`jkyll serve`。阅读窗口提示，打开浏览器，输入默认的地址`127.0.0.1:4000`。回车。
+到这步，你终于可以看看自己实现的博客了。1请先将ruby命令行窗口切换到你仓库的地址，然后使用`jekyll serve`。阅读窗口提示，打开浏览器，输入默认的地址`127.0.0.1:4000`。回车。
 
 应该是你想象中的网页吧~
 

@@ -231,7 +231,7 @@ Finally！完成了。
 
 恭喜你，你可以在本机上调试你的博客了~
 
-## 后记
+## 调试小记
 
 我在用jekyll 3.3.0本地调试的时候`jekyll serve --watch `。
 Ps:`jekyll serve`默认是会monitor file changes。出现了以下问题，你可以参考：
